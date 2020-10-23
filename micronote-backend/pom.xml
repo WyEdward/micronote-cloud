@@ -45,6 +45,7 @@
         <module>micronote-service</module>
         <module>micronote-gateway</module>
         <module>micronote-service-api</module>
+        <module>micronote-config</module>
     </modules>
 
     <!--下面子包需要声明一下才可以用的坐标-->

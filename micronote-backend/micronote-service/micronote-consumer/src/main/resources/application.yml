@@ -1,8 +1,22 @@
+###1、本地配置
+###在本地创建application-7009 然后
+#spring:
+# profiles:
+#  active: 7009
 spring:
   profiles:
-    active: 7009
+    active: prod
   application:
     name: Server-Consumer-demo
+    #从micronote-config获取本地的config配置
+  cloud:
+    config:
+      fail-fast: true
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      discovery:
+        enabled: true
+        service-id: micronote-config
 
 #开启熔断
 feign:

@@ -1,6 +1,5 @@
 package cn.wyedward.demo.feign;
 
-
 import cn.wyedward.demo.entity.po.User;
 import cn.wyedward.demo.entity.vo.LoginMessage;
 import cn.wyedward.demo.feign.factory.UserServiceFallback;
@@ -18,4 +17,3 @@ public interface UserService {
     @GetMapping("/info")
     String Info();
 }
-
