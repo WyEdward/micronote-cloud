@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: 7007
+  application:
+    name: Server-Provider-demo
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/dbase?useUnicode=true&characterEncoding=utf-8&useSSL=false&&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#mybatis配置
+mybatis:
+  typeAliasesPackage: cn.wyedward.core.entity
+  mapperLocations: classpath:mappers/*Mapper.xml
+  #configLocation: classpath:/mybatis-config.xml
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://wyedward:123456@eureka7001.com:7001/eureka/,http://wyedward:123456@eureka7002.com:7002/eureka/,http://wyedward:123456@eureka7003.com:7003/eureka/

@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Zuul-Gateway
+server:
+  port: 12580
+
+zuul:
+  routes:
+    provider-a:
+      path: /provider-a/**
+      serviceId: Server-Provider-demo
+    consumer-a:
+      path: /consumer-a/**
+      serviceId: Server-Consumer-demo
+    api-a:
+      path: /api-a/**
+      url: http://localhost:7009
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://wyedward:123456@eureka7001.com:7001/eureka/,http://wyedward:123456@eureka7002.com:7002/eureka/,http://wyedward:123456@eureka7003.com:7003/eureka/

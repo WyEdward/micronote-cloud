@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micronote-consumer" />
+        <module name="micronote-demo" />
+        <module name="micronote-demo-api" />
+        <module name="micronote-eureka" />
+        <module name="micronote-gateway" />
+        <module name="micronote-service (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="micronote-auth" target="1.8" />
+      <module name="micronote-backend" target="1.8" />
+      <module name="micronote-consumer" target="1.8" />
+      <module name="micronote-core" target="1.8" />
+      <module name="micronote-demo" target="1.8" />
+      <module name="micronote-demo-api" target="1.8" />
+      <module name="micronote-eureka" target="1.8" />
+      <module name="micronote-gateway" target="1.8" />
+      <module name="micronote-manage" target="1.8" />
+      <module name="micronote-portal" target="1.8" />
+      <module name="micronote-service" target="1.8" />
+      <module name="micronote-service (1)" target="1.8" />
+      <module name="micronote-service-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

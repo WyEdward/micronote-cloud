@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+target/
+.mvn
+.idea
+*.iml
+*.cmd
+*.class
+/mvnw
+/micronote-core/src/main/resources/application-prod.yml
+/micronote-core/src/main/resources/application-dev.yml
+rebel.xml

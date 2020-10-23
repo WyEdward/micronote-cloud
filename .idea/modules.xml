@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-backend.iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-service/micronote-consumer/micronote-consumer.iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-service/micronote-consumer/micronote-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-service/micronote-demo/micronote-demo.iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-service/micronote-demo/micronote-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-service-api/micronote-demo-api/micronote-demo-api.iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-service-api/micronote-demo-api/micronote-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-eureka/micronote-eureka.iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-eureka/micronote-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-gateway/micronote-gateway.iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-gateway/micronote-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-service/micronote-service.iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-service/micronote-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-service/micronote-service (1).iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-service/micronote-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/micronote-backend/micronote-service-api/micronote-service-api.iml" filepath="$PROJECT_DIR$/micronote-backend/micronote-service-api/micronote-service-api.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+2020-10-20 10:27:00.984 [main] INFO  cn.wyedward.auth.AuthApplication - The following profiles are active: dev
+2020-10-20 10:27:02.687 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-20 10:27:02.693 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-20 10:27:02.738 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-10-20 10:27:03.282 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=079f4ca4-7e6b-3985-b520-c915d8a6b82d
+2020-10-20 10:27:03.604 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.wyedward.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$af777b9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 10:27:03.953 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.wyedward.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$af777b9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 10:30:04.003 [main] INFO  cn.wyedward.auth.AuthApplication - The following profiles are active: dev
+2020-10-20 10:30:05.343 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-20 10:30:05.343 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-20 10:30:05.383 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-10-20 10:30:05.866 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=079f4ca4-7e6b-3985-b520-c915d8a6b82d
+2020-10-20 10:30:06.194 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.wyedward.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$770136f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 10:30:06.543 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.wyedward.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$770136f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 10:30:30.389 [main] INFO  cn.wyedward.auth.AuthApplication - The following profiles are active: dev
+2020-10-20 10:30:32.206 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-20 10:30:32.216 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-20 10:30:32.258 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-10-20 10:30:32.783 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=079f4ca4-7e6b-3985-b520-c915d8a6b82d
+2020-10-20 10:30:33.103 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.wyedward.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$9a528960] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 10:30:33.487 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.wyedward.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$9a528960] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 10:34:33.823 [main] INFO  cn.wyedward.auth.AuthApplication - The following profiles are active: dev
+2020-10-20 10:34:34.993 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-20 10:34:34.999 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-20 10:34:35.038 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-10-20 10:34:35.543 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=079f4ca4-7e6b-3985-b520-c915d8a6b82d
+2020-10-20 10:34:35.814 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.wyedward.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$43ef9967] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 10:34:36.114 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.wyedward.auth.config.ShiroConfig$$EnhancerBySpringCGLIB$$43ef9967] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
