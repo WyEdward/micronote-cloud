@@ -1,4 +1,4 @@
-package cn.wyedward.service;
+package cn.wyedward.demo.service;
 
 import cn.wyedward.demo.entity.po.User;
 import cn.wyedward.demo.entity.vo.LoginMessage;

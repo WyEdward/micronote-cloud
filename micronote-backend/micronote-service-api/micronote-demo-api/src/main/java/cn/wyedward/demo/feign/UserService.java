@@ -13,7 +13,6 @@ public interface UserService {
     @PostMapping("/login")
     User login(@RequestBody LoginMessage loginMessage);
 
-
     @GetMapping("/info")
     String Info();
 }

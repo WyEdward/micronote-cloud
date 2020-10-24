@@ -1,27 +1,29 @@
-package cn.wyedward.controller;
+package cn.wyedward.consumer.controller;
 
+
+
+
+
+
+import cn.wyedward.consumer.service.UserLoginService;
 import cn.wyedward.demo.entity.po.User;
 import cn.wyedward.demo.entity.vo.LoginMessage;
-import cn.wyedward.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
-
 
 @RestController
 @CrossOrigin
-public class UserController {
+public class UserLoginController {
     @Autowired
-    private UserService userService;
+    private UserLoginService userLoginService;
 
-    @Transactional
     @PostMapping("/login")
     public User login(@RequestBody LoginMessage loginMessage){
-        return userService.login(loginMessage);
+        return userLoginService.login(loginMessage);
     }
 
     @GetMapping("/info")
     public String Info(){
-        return "hello,info";
+        return userLoginService.Info();
     }
 }

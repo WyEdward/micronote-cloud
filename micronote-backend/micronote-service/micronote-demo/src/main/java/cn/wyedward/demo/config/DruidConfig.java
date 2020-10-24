@@ -1,4 +1,4 @@
-package cn.wyedward.config;
+package cn.wyedward.demo.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;

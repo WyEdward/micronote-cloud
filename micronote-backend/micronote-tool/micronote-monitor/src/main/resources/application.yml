@@ -1,14 +1,12 @@
-###1、本地配置
-###在本地创建application-7009 然后
-#spring:
-# profiles:
-#  active: 7009
+server:
+  port: 5001
+
 spring:
-  profiles:
-    active: prod
   application:
-    name: Server-Consumer-demo
-    #从micronote-config获取本地的config配置
+    name: micronote-monitor
+  profiles:
+    active: dev
+  #配置中心
   cloud:
     config:
       fail-fast: true
@@ -18,26 +16,28 @@ spring:
         enabled: true
         service-id: micronote-config
 
-#开启熔断
-feign:
-  hystrix:
-    enabled: true
-
-
+# 注册中心配置
 eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
       defaultZone: http://wyedward:123456@eureka7001.com:7001/eureka/,http://wyedward:123456@eureka7002.com:7002/eureka/,http://wyedward:123456@eureka7003.com:7003/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+    prefer-ip-address: true     #访问路径可以显示IP地址
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
 
 # 暴露监控端点
 management:
   endpoints:
     web:
       exposure:
-        include: '*'              #暴露的监控端点  默认暴露2个 /actuator/health和 /actuator/info
-      base-path: /actuator         #actuator监控的路径  默认是/actuator
+        include: '*'
   endpoint:
-    health:
-      show-details: ALWAYS
+      health:
+        show-details: ALWAYS

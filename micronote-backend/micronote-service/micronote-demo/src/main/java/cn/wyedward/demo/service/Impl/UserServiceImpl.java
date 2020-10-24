@@ -1,9 +1,9 @@
-package cn.wyedward.service.Impl;
+package cn.wyedward.demo.service.Impl;
 
-import cn.wyedward.dao.UserDao;
+import cn.wyedward.demo.dao.UserDao;
 import cn.wyedward.demo.entity.po.User;
 import cn.wyedward.demo.entity.vo.LoginMessage;
-import cn.wyedward.service.UserService;
+import cn.wyedward.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

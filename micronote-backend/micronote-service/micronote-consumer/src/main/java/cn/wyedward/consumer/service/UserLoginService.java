@@ -1,13 +1,15 @@
-package cn.wyedward.service;
+package cn.wyedward.consumer.service;
 
 import cn.wyedward.demo.entity.po.User;
 import cn.wyedward.demo.entity.vo.LoginMessage;
+
 import cn.wyedward.demo.feign.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserLoginService {
+
     @Autowired
     private UserService userService;
 

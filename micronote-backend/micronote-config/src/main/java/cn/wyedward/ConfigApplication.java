@@ -1,4 +1,4 @@
-package cn.wyedward.config;
+package cn.wyedward;
 
 
 import org.springframework.boot.SpringApplication;

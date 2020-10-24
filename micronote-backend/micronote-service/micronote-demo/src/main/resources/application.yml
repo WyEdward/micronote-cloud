@@ -22,3 +22,14 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://wyedward:123456@eureka7001.com:7001/eureka/,http://wyedward:123456@eureka7002.com:7002/eureka/,http://wyedward:123456@eureka7003.com:7003/eureka/
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'        #暴露的监控端点  默认暴露2个 /actuator/health和 /actuator/info
+      base-path: /actuator  #actuator监控的路径  默认是/actuator
+  endpoint:
+    health:
+      show-details: ALWAYS

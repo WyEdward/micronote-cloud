@@ -1,4 +1,4 @@
-package cn.wyedward.controller;
+package cn.wyedward.consumer.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.CrossOrigin;

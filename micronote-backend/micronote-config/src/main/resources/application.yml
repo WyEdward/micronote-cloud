@@ -20,3 +20,12 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://wyedward:123456@eureka7001.com:7001/eureka/,http://wyedward:123456@eureka7002.com:7002/eureka/,http://wyedward:123456@eureka7003.com:7003/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
